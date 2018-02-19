@@ -15,7 +15,7 @@
 
 ## Video 2 - Installing Node.js
 
-* The current version as of 2/18/2018 is 9.5.0
+* The current version as of 2/18/2018 is 9.5.0 and
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNzY1MDcxNl19
+eyJoaXN0b3J5IjpbLTc1MTY2NTIzXX0=
 -->
