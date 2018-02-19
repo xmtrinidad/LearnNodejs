@@ -18,7 +18,7 @@
 * The current version as of 2/18/2018 is 9.5.0
 * Node can be run from the Terminal/Command by typing the command ```node```
 	* After, a prompt will appear with ```>```
-	* 
+	* At this promp, a JavaScript file can be run by typing the filename
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjYzNzc2NzRdfQ==
+eyJoaXN0b3J5IjpbODU5Njg1NjkzXX0=
 -->
