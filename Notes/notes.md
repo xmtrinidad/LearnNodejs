@@ -28,8 +28,9 @@
 
 *  Computers do not understand JavaScript
 * A JavaScript engine takes JavaScript and converts it into something it does understand - machine code
+	* JavaScript > C++ > A
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzA5NjE1NF19
+eyJoaXN0b3J5IjpbLTIwNjY2NTM1XX0=
 -->
