@@ -13,10 +13,12 @@
 * Very fast with huge ecosystem of open source packages
 * Great for real-time services like chats
 
-## Video 2 - Installing Node.js
+### Video 2 - Installing Node.js
 
 * The current version as of 2/18/2018 is 9.5.0
-* 
+* Node can be run from the Terminal/Command by typing the command ```node```
+	* After, a prompt will appear with ```>```
+	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTQ3MjA4NF19
+eyJoaXN0b3J5IjpbLTE5MjYzNzc2NzRdfQ==
 -->
