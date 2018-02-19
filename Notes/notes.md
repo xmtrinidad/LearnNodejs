@@ -22,9 +22,14 @@
 	* After, a prompt will appear with ```>```
 	* At this promp, a JavaScript file can be run by typing the filename
 
-### Video 3 -The V8 Engine
+## Video 3 -The V8 Engine
+
+### JavaScript Engines
+
+*  Computers do not understand JavaScript
+* A JavaScript engine takes JavaScript and converts it into something it does understand - machine code
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTc0OTU1N119
+eyJoaXN0b3J5IjpbLTg0MzA5NjE1NF19
 -->
