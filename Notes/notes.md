@@ -1,6 +1,6 @@
 # The Net Ninja Node Playlist
 
-# Video 1 - Introduction
+## Video 1 - Introduction
 
 ### What is Node.js?
 
@@ -12,6 +12,10 @@
 * It uses JavaScript
 * Very fast with huge ecosystem of open source packages
 * Great for real-time services like chats
+
+## Video 2 - Installing Node.js
+
+* The current version as of 2/18/2018 is 9.5.0
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODk4MjU1Nl19
+eyJoaXN0b3J5IjpbMTUxNzY1MDcxNl19
 -->
