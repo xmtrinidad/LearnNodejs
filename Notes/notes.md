@@ -8,10 +8,10 @@
 * Read, delete and update files
 * Easily community with a database
 
-## Why is Node.js Popular?
+### Why is Node.js Popular?
 * It uses JavaScript
 * Very fast with huge ecosystem of open source packages
 * Great for real-time services like chats
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTEwMjY5XX0=
+eyJoaXN0b3J5IjpbMTQ2ODk4MjU1Nl19
 -->
