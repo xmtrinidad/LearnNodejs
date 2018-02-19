@@ -29,8 +29,9 @@
 *  Computers do not understand JavaScript
 * A JavaScript engine takes JavaScript and converts it into something it does understand - machine code
 	* JavaScript > C++ > Assembly Language > Machine Code
+	* Node.js is written in C++
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MTQ4MzY0NF19
+eyJoaXN0b3J5IjpbMTY1MTc3NDMyNF19
 -->
