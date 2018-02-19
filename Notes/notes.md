@@ -1,6 +1,8 @@
+# The Net Ninja Node Playlist
+
 # Video 1 - Introduction
 
-## What is Node.js?
+### What is Node.js?
 
 * A platform which allows us to run JavaScript on a computer/server
 * Read, delete and update files
@@ -11,5 +13,5 @@
 * Very fast with huge ecosystem of open source packages
 * Great for real-time services like chats
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQ0MjEzMjVdfQ==
+eyJoaXN0b3J5IjpbLTE5NTEwMjY5XX0=
 -->
