@@ -489,7 +489,7 @@ server.listen(3000, 'localhost');
 console.log('listening on port 3000');
 ```
 
-## Video 18 - Basic Routing
+## Video 19 - Basic Routing
 
 Basic routing can be handled by getting the request url path and doing something based on that request
 ```js
@@ -518,6 +518,119 @@ const server = http.createServer((req, res) => {
 server.listen(3000, 'localhost');
 console.log('listening on port 3000');
 ```
+## Video 20 - NPM
+
+Node Package Manager - install dependenies
+
+## Video 21 - The Package .JSON File
+
+* Helps keep track of project dependencies
+* Start a package.json file with the command ```npm init```
+* Using the package.json file, there's no need to transfer node_modules.
+	* If another developer wanted to use the same packages they just need to run ```npm install`` and all the dependencies list from the package.json file will be downloaded
+
+## Video 22 - Installing Nodemon
+
+http://nodemon.io/
+
+* Monitor application files
+* Changes made and saved will automatically restart the server
+* Install with ```npm install -g nodemon```
+* To use nodemon, type ```nodemon app.js``` where app.js is the file your server configuration is located.
+
+## Video 23 - Introduction to Express
+
+* Easy and flexible routing system
+* Integrates with many templating engines
+* Contains a middleware framework
+
+To start using in a project, install using ```npm install express``` then require it ```const express = require('express');```
+
+### Set-up Express App
+```js
+const app = express();
+```
+### Listen to a port
+```js
+app.listen(3000)
+```
+### Responding to Requests
+* HTTP Methods
+	* GET - ```app.get('route', fn)```
+	* POST - ```app.post('route', fn)```
+	* DELETE - ```app.delete('route', fn)```
+	* PUT
+
+### GET Examples
+```js
+app.get('/', (req, res) => {
+    res.send('this is the homepage');
+});
+
+app.get('/contact', (req, res) => {
+    res.send('this is the contact page');
+});
+
+app.listen(3000);
+```
+
+### Video 24 - Route Parameters in Express
+
+### Dynamic routing example
+```js
+app.get('/profile/:id', (req, res) => {
+    res.send('you requested to see profile with the id of ' + req.params.id)
+});
+```
+
+## Video 25 - Templating Engines
+
+### sendFile()
+Using the  ```sendFile()``` method can get HTML pages:
+
+```js
+app.get('/', (req, res) => {
+    res.sendFile(`${__dirname}/index.html`);
+});
+
+app.get('/contact', (req, res) => {
+    res.sendFile(`${__dirname}/contact.html`);
+});
+```
+
+### About Template Engines
+
+With a JavaScript template engine, data and JavaScript code can be embedded into HTML.
+
+### Get dynamic data using templating engines
+
+To get started using EJS with Express, it needs to know which template engine is being used:
+```js
+// Tell express we want to use EJS
+app.set('view engine', 'ejs');
+```
+By default, when **views/templates** are requested, it's going to look in the **/views** folder.  This is where *.ejs* files should be stored.
+
+### EJS Template Example
+**views/profile.ejs**
+```html
+<h1>Welcome to the profile of <%= person %></h1>
+```
+
+Here, ```<%= person %>``` is where the dynamic data is inserted based on the app.js config:
+```js
+app.get('/profile/:name', (req, res) => {
+    res.render('profile', {person: req.params.name});
+});
+```
+
+The **render()** method is used to render a view.  In the code above, it will render the view with the name *profile*.  The 2nd parameter from the **render()** method is an object that gets and sets the dynamic data
+
+## Video 26 - Templating Engines Part 2
+
+
+
+
 
 
 

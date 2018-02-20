@@ -23,12 +23,19 @@
             text-align: center;
         }
     </style>
-    <title>Node.js Contact Page</title>
+    <title>Node.js Example Page</title>
 </head>
 <body>
 
-<h1>My Contact Page Updated</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid assumenda blanditiis commodi delectus deleniti dolor dolore dolores eligendi excepturi expedita facilis fugit, laborum laudantium libero magni minima, mollitia nam odit praesentium provident quaerat quam quasi qui quibusdam quo repellat unde voluptas voluptatem, voluptatum. Blanditiis earum odio quam quisquam voluptas!</p>
+<h1>Welcome to the profile of <%= person %></h1>
+<p><strong>Age:</strong> <%= data.age %></p>
+<p><strong>Job:</strong> <%= data.job %></p>
+<h2>Hobbies</h2>
+<ul>
+    <% data.hobbies.forEach(hobby => { %>
+        <li><%= hobby %></li>
+    <% }); %>
+</ul>
 
 </body>
 </html>

@@ -1,0 +1,24 @@
+{
+  "name": "learnnodejs",
+  "version": "1.0.0",
+  "description": "Going through the Node.js tutorials from The Net Ninja",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmtrinidad/LearnNodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xmtrinidad/LearnNodejs/issues"
+  },
+  "homepage": "https://github.com/xmtrinidad/LearnNodejs#readme"
+}
