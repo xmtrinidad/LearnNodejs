@@ -2,7 +2,4 @@
 
 Going through the Node.js tutorials from The Net Ninja
 
----
-
-## Video 1 - Introduction
-
+[Click Here](https://github.com/xmtrinidad/LearnNodejs/blob/master/Notes/notes.md) for notes
